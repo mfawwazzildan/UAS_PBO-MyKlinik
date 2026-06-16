@@ -198,10 +198,6 @@ if (isset($_POST['hapus'])) {
                                         value="<?= $row['tanggal'] ?>"
                                         required>
                                     </div>
-
-                                    <input type="hidden" name="pasien_id" value="<?= $row['pasien_id'] ?>">
-                                    <input type="hidden" name="dokter_id" value="<?= $row['dokter_id'] ?>">
-
                                   </div>
 
                                   <div class="modal-footer">
